@@ -29,12 +29,15 @@ To run this project locally:
    git clone https://github.com/riyatk/tourism.git
    cd tourism
 2. **Install dependencies**
+   ```bash
    pip install -r requirements.txt
-3. **Apply migrations**
+4. **Apply migrations**
+   ```bash
    python manage.py makemigrations
    python manage.py migrate
-4.**Run the server**
-   python manage.py runserver
+5. **Run the server**
+   ```bash
+   python manage.py runserver   
 
 ## Project Structure
 
